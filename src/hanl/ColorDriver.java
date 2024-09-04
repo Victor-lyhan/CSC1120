@@ -1,4 +1,11 @@
-package Week1.HW;
+/*
+ * Course: CSC1110 - 311
+ * Fall 2024
+ * Lecture - My First Program
+ * Name: Liyang(Victor) Han
+ * Created: 9/3/2024
+ */
+package hanl;
 
 import java.util.Scanner;
 
@@ -16,7 +23,7 @@ public class ColorDriver {
         System.out.println("Please enter a number to convert (or q to quit)");
 
         String command = input.nextLine();
-        while(command.length() != 0 && command.equals("q") != true){
+        while(!command.equals("q")){
             boolean isInt = validate(command);
             if(isInt){
                 System.out.println(display(Integer.parseInt(command)));

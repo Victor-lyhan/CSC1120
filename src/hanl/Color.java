@@ -1,4 +1,11 @@
-package Week1.HW;
+/*
+ * Course: CSC1110 - 311
+ * Fall 2024
+ * Lecture - My First Program
+ * Name: Liyang(Victor) Han
+ * Created: 9/3/2024
+ */
+package hanl;
 
 public enum Color {
     RESET("\u001B[0m"),
@@ -17,7 +24,5 @@ public enum Color {
         ansi = color;
     }
     @Override
-    public String toString(){
-        return ansi;
-    }
+    public String toString() { return ansi; }
 }
