@@ -1,4 +1,4 @@
-package Week1;
+package Week1.HW;
 
 public enum Color {
 
