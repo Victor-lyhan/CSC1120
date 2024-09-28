@@ -1,6 +1,6 @@
 /*
  * Course: CSC1020
- * Lab 2 - Exceptions
+ * Week3.Week4.Lab 2 - Exceptions
  * Die class
  * Name: Victor Han
  * Last Updated: 9/9/2024

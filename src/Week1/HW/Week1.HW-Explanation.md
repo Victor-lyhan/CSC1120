@@ -1,4 +1,4 @@
-# Week 1 - Week1.HW - Explanation
+# Week 1 - Week1.Week3.Week4.HW - Explanation
 
 ## Overview
 * An enum in Java is a special type of class that represents a fixed set of constants 
