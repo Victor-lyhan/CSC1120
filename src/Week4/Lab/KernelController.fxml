@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="232.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hanl.KernelController">
+   <children>
+      <VBox prefHeight="284.0" prefWidth="369.0">
+         <children>
+            <HBox prefHeight="55.0" prefWidth="369.0">
+               <children>
+                  <TextField fx:id="textField11" alignment="CENTER" prefHeight="40.0" prefWidth="110.0">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <HBox.margin>
+                        <Insets left="10.0" top="10.0" />
+                     </HBox.margin>
+                  </TextField>
+                  <TextField fx:id="textField12" alignment="CENTER" prefHeight="40.0" prefWidth="110.0">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <HBox.margin>
+                        <Insets left="10.0" top="10.0" />
+                     </HBox.margin>
+                  </TextField>
+                  <TextField fx:id="textField13" alignment="CENTER" prefHeight="40.0" prefWidth="110.0">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <HBox.margin>
+                        <Insets left="10.0" top="10.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+            </HBox>
+            <HBox prefHeight="57.0" prefWidth="369.0">
+               <children>
+                  <TextField fx:id="textField21" alignment="CENTER" prefHeight="40.0" prefWidth="110.0">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <HBox.margin>
+                        <Insets left="10.0" top="10.0" />
+                     </HBox.margin>
+                  </TextField>
+                  <TextField fx:id="textField22" alignment="CENTER" prefHeight="40.0" prefWidth="110.0">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <HBox.margin>
+                        <Insets left="10.0" top="10.0" />
+                     </HBox.margin>
+                  </TextField>
+                  <TextField fx:id="textField23" alignment="CENTER" prefHeight="40.0" prefWidth="110.0">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <HBox.margin>
+                        <Insets left="10.0" top="10.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+            </HBox>
+            <HBox prefHeight="59.0" prefWidth="369.0">
+               <children>
+                  <TextField fx:id="textField31" alignment="CENTER" prefHeight="40.0" prefWidth="110.0">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <HBox.margin>
+                        <Insets left="10.0" top="10.0" />
+                     </HBox.margin>
+                  </TextField>
+                  <TextField fx:id="textField32" alignment="CENTER" prefHeight="40.0" prefWidth="110.0">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <HBox.margin>
+                        <Insets left="10.0" top="10.0" />
+                     </HBox.margin>
+                  </TextField>
+                  <TextField fx:id="textField33" alignment="CENTER" prefHeight="40.0" prefWidth="110.0">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <HBox.margin>
+                        <Insets left="10.0" top="10.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+            </HBox>
+            <HBox prefHeight="58.0" prefWidth="369.0">
+               <children>
+                  <Button fx:id="apply" alignment="CENTER" mnemonicParsing="false" onAction="#setApply" prefHeight="40.0" prefWidth="110.0" text="Apply" textAlignment="CENTER">
+                     <HBox.margin>
+                        <Insets left="65.0" top="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="cancel" alignment="CENTER" mnemonicParsing="false" onAction="#closeKernel" prefHeight="40.0" prefWidth="110.0" text="Cancel" textAlignment="CENTER">
+                     <HBox.margin>
+                        <Insets left="20.0" top="5.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <VBox prefHeight="284.0" prefWidth="130.0">
+         <children>
+            <Button fx:id="blur" alignment="CENTER" mnemonicParsing="false" onAction="#setBlur" prefHeight="40.0" prefWidth="110.0" text="Blur" textAlignment="CENTER">
+               <VBox.margin>
+                  <Insets left="10.0" top="10.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="sharpen" alignment="CENTER" mnemonicParsing="false" onAction="#setSharpen" prefHeight="40.0" prefWidth="110.0" text="Sharpen" textAlignment="CENTER">
+               <VBox.margin>
+                  <Insets left="10.0" top="15.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+   </children>
+</HBox>

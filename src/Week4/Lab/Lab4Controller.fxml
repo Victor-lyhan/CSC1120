@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="475.0" prefWidth="507.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hanl.Lab4Controller">
+   <children>
+      <VBox prefHeight="200.0" prefWidth="100.0">
+         <children>
+            <ImageView fx:id="iv" fitHeight="405.0" fitWidth="363.0" pickOnBounds="true" preserveRatio="true">
+               <VBox.margin>
+                  <Insets right="10.0" />
+               </VBox.margin></ImageView>
+         </children>
+      </VBox>
+      <VBox prefHeight="475.0" prefWidth="159.0">
+         <children>
+            <Button id="open" fx:id="open" mnemonicParsing="false" onAction="#load" prefHeight="42.0" prefWidth="147.0" text="Open">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </Button>
+            <Button id="save" fx:id="save" mnemonicParsing="false" onAction="#save" prefHeight="42.0" prefWidth="147.0" text="Save">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </Button>
+            <Button id="reload" fx:id="reload" mnemonicParsing="false" onAction="#reload" prefHeight="42.0" prefWidth="147.0" text="Reload">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </Button>
+            <Button id="grayscale" fx:id="grayScale" mnemonicParsing="false" onAction="#applyGrayscale" prefHeight="42.0" prefWidth="147.0" text="Grayscale">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </Button>
+            <Button id="negative" fx:id="negative" mnemonicParsing="false" onAction="#applyNegative" prefHeight="42.0" prefWidth="147.0" text="Negative">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </Button>
+            <Button id="red" fx:id="red" mnemonicParsing="false" onAction="#applyRed" prefHeight="42.0" prefWidth="147.0" text="Red">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </Button>
+            <Button id="redGray" fx:id="redGray" mnemonicParsing="false" onAction="#applyRedGray" prefHeight="42.0" prefWidth="147.0" text="Red - Gray">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </Button>
+            <Button id="showFilter" fx:id="showFilter" mnemonicParsing="false" onAction="#showFilterKernel" prefHeight="42.0" prefWidth="147.0" text="Show Filter">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+   </children>
+</HBox>

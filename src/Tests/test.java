@@ -1,8 +1,6 @@
 package Tests;
 
-import java.sql.Array;
 import java.util.*;
-import Tests.NumpyException;
 
 public class test {
     public static void main(String[] args) {
@@ -11,7 +9,7 @@ public class test {
 
         Scanner input = new Scanner(System.in);
 
-        ArrayList<String> names = new ArrayList<>();
+        VictorHan<String> names = new VictorHan<>();
         for(int i=0; i<3; i++){
             names.add(input.nextLine());
         }
